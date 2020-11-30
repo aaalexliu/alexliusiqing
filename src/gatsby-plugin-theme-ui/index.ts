@@ -74,11 +74,12 @@ const theme = merge(tailwind, {
   styles: {
     inlineCode: {
       ...vsDark,
+      display: 'inline-block',
       fontFamily: 'monospace',
       fontSize: 0,
-      borderRadius: `0.3rem`,
+      borderRadius: `0.2rem`,
       paddingTop: `0`,
-      paddingBottom: `0.15rem`,
+      paddingBottom: `0`,
       paddingX: `0.2rem`,
     },
     code: {
