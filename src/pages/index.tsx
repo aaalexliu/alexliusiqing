@@ -1,17 +1,18 @@
 import React, { Fragment } from 'react';
+import Hero from '../components/hero';
+import { Parallax } from 'react-spring/renderprops-addons';
 
 export default function Home() {
   return (
-    <Fragment>
-      <h1>
-        Alex Liu's personal site
-      </h1>
-      <p>
-        loreuasdklfjadslkfjal;dskjfa;klsdfjl;ak askdfjas asdkfjaskfas;lkdf asdkjfaksdjf asdfkasfljfasd fasd
-      </p>
-      <h2>
-        sakjdfalsdf;as jasdk@#1@# 121u9098
-      </h2>
-    </Fragment>
+    <Parallax pages={2}>
+      <Hero offset={0} factor={1}>
+     <h1>
+       Hi, I'm Alex Liu
+     </h1>
+     <p>
+     I'm creating noice web experiences for the next generation of consumer-facing companies
+     </p>
+   </Hero>
+    </Parallax>
   )
 }

@@ -62,15 +62,15 @@ const theme = merge(tailwind, {
     },
   },
   breakpoints: ['640px', '768px', '1024px', '1280px'],
-  footer: {
-    textAlign: `center`,
-    display: `block`,
-    position: `absolute`,
-    bottom: 0,
-    color: `textMuted`,
-    px: [2, 3],
-    py: [3, 4],
-  },
+  // footer: {
+  //   textAlign: `center`,
+  //   display: `block`,
+  //   position: `absolute`,
+  //   bottom: 0,
+  //   color: `textMuted`,
+  //   px: [2, 3],
+  //   py: [3, 4],
+  // },
   styles: {
     inlineCode: {
       ...vsDark,
@@ -175,13 +175,13 @@ const theme = merge(tailwind, {
       ml: 3,
     },
   },
-  texts: {
-    bigger: {
-      p: {
-        fontSize: [2, 3, 4],
-      },
-    },
-  },
+  // texts: {
+  //   bigger: {
+  //     p: {
+  //       fontSize: [2, 3, 4],
+  //     },
+  //   },
+  // },
 })
 
 export default theme
