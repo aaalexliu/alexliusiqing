@@ -1,8 +1,5 @@
 module.exports = {
   plugins: [
-    // {
-    //   resolve: 'gatsby-plugin-theme-ui'
-    // },
     {
       resolve: `gatsby-theme-blog`,
       options: {
