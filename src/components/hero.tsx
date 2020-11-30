@@ -42,6 +42,27 @@ const Hero: React.FC<HeroProps> = ({ offset, factor = 1, children }) => (
       <SVG icon="box" width={12} color="icon_darkest" left="40%" top="30%" />
       <SVG icon="hexa" width={16} stroke color="icon_darker" left="10%" top="50%" />
       <SVG icon="hexa" width={8} stroke color="icon_darker" left="80%" top="70%" />
+      <div sx={{
+        position: 'absolute',
+        left: '70%',
+        top: '70%',
+        opacity: '50%',
+        fontSize: '5em'
+      }}>👨‍💻</div>
+      <div sx={{
+        position: 'absolute',
+        left: '45%',
+        top: '35%',
+        opacity: '50%',
+        fontSize: '5em'
+      }}>🖋</div>
+      <div sx={{
+        position: 'absolute',
+        left: '45%',
+        top: '35%',
+        opacity: '50%',
+        fontSize: '5em'
+      }}>🖋</div>
     </Divider>
     <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset} factor={factor}>
       {/* <Inner> */}
