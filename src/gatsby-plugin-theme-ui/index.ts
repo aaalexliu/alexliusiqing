@@ -1,6 +1,7 @@
 import { merge } from "theme-ui"
 import { tailwind } from "@theme-ui/presets"
 import vsDark from '@theme-ui/prism/presets/vs-dark.json';
+import { blue } from '@ant-design/colors';
 
 
 const theme = merge(tailwind, {
@@ -21,7 +22,7 @@ const theme = merge(tailwind, {
   colors: {
     text: tailwind.colors.gray[8],
     heading: tailwind.colors.black,
-    primary: tailwind.colors.orange[7],
+    primary: blue[5],
     background: tailwind.colors.gray[1],
     divider: tailwind.colors.gray[2],
     textMuted: tailwind.colors.gray[6],
@@ -40,7 +41,7 @@ const theme = merge(tailwind, {
       light: {
         text: tailwind.colors.gray[8],
         heading: tailwind.colors.black,
-        primary: tailwind.colors.orange[7],
+        primary: blue[5],
         background: tailwind.colors.gray[1],
         divider: tailwind.colors.gray[2],
         textMuted: tailwind.colors.gray[6],
@@ -119,8 +120,11 @@ const theme = merge(tailwind, {
     },
     blockquote: {
       marginLeft: 0,
+      borderLeft: '3px solid',
+      borderLeftColor: 'heading',
+      paddingLeft: 10,
       p: {
-        fontSize: [2, 3],
+        fontSize: [0, 1],
         fontWeight: `medium`,
         color: `heading`,
       },

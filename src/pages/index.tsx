@@ -13,6 +13,6 @@ export default function Home() {
      I'm creating noice web experiences for the next generation of consumer-facing companies
      </p>
    </Hero>
-    </Parallax>
+  </Parallax>
   )
 }
