@@ -20,15 +20,15 @@ const theme = merge(tailwind, {
   initialColorModeName: `light`,
   useCustomProperties: true,
   colors: {
-    text: tailwind.colors.gray[8],
-    heading: tailwind.colors.black,
-    primary: blue[5],
-    background: tailwind.colors.gray[1],
-    divider: tailwind.colors.gray[2],
-    textMuted: tailwind.colors.gray[6],
-    icon_brightest: tailwind.colors.gray[2],
-    icon_darker: tailwind.colors.gray[4],
-    icon_darkest: tailwind.colors.gray[6],
+    // text: tailwind.colors.gray[8],
+    // heading: tailwind.colors.black,
+    // primary: blue[5],
+    // background: tailwind.colors.gray[1],
+    // divider: tailwind.colors.gray[2],
+    // textMuted: tailwind.colors.gray[6],
+    // icon_brightest: tailwind.colors.gray[2],
+    // icon_darker: tailwind.colors.gray[4],
+    // icon_darkest: tailwind.colors.gray[6],
     secondary: tailwind.colors.indigo[4],
     icon_red: tailwind.colors.red[6],
     icon_blue: tailwind.colors.blue[6],
@@ -110,12 +110,12 @@ const theme = merge(tailwind, {
     p: {
       fontSize: [0, 1],
       letterSpacing: `-0.003em`,
-      lineHeight: `snug`,
+      lineHeight: `normal`,
       "--baseline-multiplier": 0.179,
       "--x-height-multiplier": 0.35,
       color: `text`,
       code: {
-        fontSize: 0
+        fontSize: [0, 1]
       }
     },
     blockquote: {
