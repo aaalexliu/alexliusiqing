@@ -17,9 +17,9 @@ module.exports = {
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `My Blog Title`,
-    author: `My Name`,
-    description: `My site description...`,
+    title: `Byproducts of Being`,
+    author: `Alex Liu`,
+    description: `Alex Liu's Personal Site`,
     siteUrl: 'https://alexliusiqing.com',
     social: [
       {

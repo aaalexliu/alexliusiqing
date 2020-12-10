@@ -6,8 +6,9 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
-    "clean": "gatsby clean"
-  },
+    "clean": "gatsby clean",
+    "add-explainer": "mkdir -p public/projects/margins-me && cp -R ../margins-me/margins-me-frontend/explainer/public/ public/projects/margins-me/"
+  }, 
   "license": "0BSD",
   "dependencies": {
     "@ant-design/colors": "^5.0.0",
