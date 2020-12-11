@@ -126,10 +126,10 @@ const theme = merge(tailwind, {
       "--baseline-multiplier": 0.179,
       "--x-height-multiplier": 0.35,
       color: `text`,
-      // a: {
-      //   color: `primary`,
-      //   textDecoration: `none`,
-      // },
+      a: {
+        color: `primary`,
+        textDecoration: `none`,
+      },
       code: {
         fontSize: [0, 1]
       }

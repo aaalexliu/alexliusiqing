@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import React from 'react';
 import { Styled, jsx } from "theme-ui"
-import { Link } from "gatsby";
+import { HoverLink } from "./custom-link";
 
 interface PostLinkProps {
   title?: string,
@@ -18,21 +18,11 @@ const PostLink: React.FC<PostLinkProps>= ({ title, slug, date, excerpt }) => (
           mb: 1,
         }}
       >
-        <Link
-          sx={{
-            color: `heading`,
-            textDecoration: `none`,
-            transition: `transform 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6)`,
-            transitionProperty: 'color',
-            "&:hover": {
-              color: `primary`,
-              textDecoration: `none`,
-            },
-          }}
+        <HoverLink
           to={slug}
         >
           {title || slug}
-        </Link>
+        </HoverLink>
       </Styled.h2>
       <small>{date}</small>
     </header>

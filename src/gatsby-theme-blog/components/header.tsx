@@ -1,5 +1,6 @@
 /** @jsx jsx */
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
+import { HoverLink } from './custom-link';
 import { jsx, css, Styled, useColorMode } from 'theme-ui';
 import { Sun } from 'react-feather';
 
@@ -38,12 +39,11 @@ const Header: React.FC = ({ children, ...props }) => {
             }}
           /> */}
           <h1 css={{ margin: 0 }}>
-          <Styled.a
-            as={Link}
+          <HoverLink
             to={'/'}
           >
             Alex Liu
-          </Styled.a>
+          </HoverLink>
           </h1>
         </div>
         <div
@@ -58,20 +58,18 @@ const Header: React.FC = ({ children, ...props }) => {
           }}
         >
           <div>
-            <Styled.a
-              as={Link}
+            <HoverLink
               to={'/blog'}
             >
               Blog
-            </Styled.a>
+            </HoverLink>
           </div>
           <div>
-          <Styled.a
-              as={Link}
+            <HoverLink
               to={'/about'}
             >
               About
-            </Styled.a>
+            </HoverLink>
           </div>
           <div>
             <button
