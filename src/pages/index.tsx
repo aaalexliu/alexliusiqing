@@ -13,13 +13,14 @@ export default function Home() {
         <h1>
           Hi, I'm Alex Liu
         </h1>
-        <p
+        <h4
           sx={{
-            textAlign: 'center'
+            textAlign: 'center',
           }}
         >
-          I <Link to='/blog/why-i-quit-trading'>quit my job as a trader</Link>, built an app during COVID, and now I'm looking for a job as a software engineer
-        </p>
+          I <Link to='/blog/why-i-quit-trading'>quit my job</Link> as a trader, <Link to='/projects/margins'>built an app</Link> during COVID,
+          and now I'm looking for a job as a software engineer. Here's <Link to='/blog/why-code-why-me'>why I might be a fit</Link> for your team.
+        </h4>
         <p>
           I read, write, code, lift, invest, and dance.
         </p>
@@ -32,14 +33,15 @@ export default function Home() {
         <h1>
           More
         </h1>
-        <ul sx={{paddingInlineStart: 0}}>
-          <li>
-            <Link to='/blog'>Blog</Link>
-          </li>
-          <li>
-            <Link to='/about'>About</Link>
-          </li>
-        </ul>
+        <p>
+          - <Link to='/blog'>Blog</Link>
+          <br/>
+          - <Link to='/about'>About</Link>
+          <br/> <br/>
+          <b>Projects</b>
+          <br/>
+          - <Link to='/projects/margins'>Margins</Link>
+        </p>
       </Content>
   </Parallax>
   )
