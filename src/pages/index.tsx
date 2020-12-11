@@ -40,7 +40,7 @@ export default function Home() {
       </Hero>
       <Content
         speed={1}
-        offset={0.75}
+        offset={0.8}
         factor={0.5}
       >
         <Styled.h3>
