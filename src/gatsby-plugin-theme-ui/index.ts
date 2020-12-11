@@ -41,13 +41,13 @@ const theme = merge(tailwind, {
       light: {
         text: tailwind.colors.gray[8],
         heading: tailwind.colors.black,
-        primary: blue[5],
+        primary: blue[3],
         background: tailwind.colors.gray[1],
         divider: tailwind.colors.gray[2],
         textMuted: tailwind.colors.gray[6],
         icon_brightest: tailwind.colors.gray[2],
         icon_darker: tailwind.colors.gray[4],
-        icon_darkest: tailwind.colors.gray[6],
+        icon_darkest: tailwind.colors.gray[8],
       },
       dark: {
         text: tailwind.colors.gray[3],
@@ -73,6 +73,18 @@ const theme = merge(tailwind, {
   //   py: [3, 4],
   // },
   styles: {
+    // header: {
+    //   a: {
+    //     color: `heading`,
+    //     textDecoration: `none`,
+    //     transition: `transform 1s cubic-bezier(0.68, -0.6, 0.32, 1.6)`,
+    //     transitionProperty: 'color',
+    //     "&:hover": {
+    //       color: `primary`,
+    //       textDecoration: `none`,
+    //     },
+    //   },
+    // },
     inlineCode: {
       ...vsDark,
       display: 'inline-block',
@@ -97,14 +109,14 @@ const theme = merge(tailwind, {
       MozOsxFontSmoothing: `grayscale`,
       color: `text`,
       backgroundColor: `background`,
-      a: {
-        color: `primary`,
+    },
+    a: {
+      color: `primary`,
+      textDecoration: `none`,
+      "&:hover": {
+        // color: `primary`,
         textDecoration: `none`,
-        transition: `all 0.3s ease-in-out`,
-        "&:hover": {
-          color: `primary`,
-          textDecoration: `none`,
-        },
+        // transform: 'perspective(1px) translateZ(0)'
       },
     },
     p: {
@@ -114,6 +126,10 @@ const theme = merge(tailwind, {
       "--baseline-multiplier": 0.179,
       "--x-height-multiplier": 0.35,
       color: `text`,
+      // a: {
+      //   color: `primary`,
+      //   textDecoration: `none`,
+      // },
       code: {
         fontSize: [0, 1]
       }
