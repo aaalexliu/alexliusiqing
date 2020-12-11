@@ -18,6 +18,7 @@
     "@theme-ui/presets": "^0.3.4",
     "@theme-ui/prism": "^0.3.4",
     "gatsby": "^2.26.1",
+    "gatsby-plugin-manifest": "^2.8.0",
     "gatsby-plugin-typescript": "^2.7.0",
     "gatsby-theme-blog": "^2.0.2",
     "react": "^17.0.1",
