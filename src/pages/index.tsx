@@ -27,6 +27,8 @@ export default function Home() {
         <Styled.h6
           sx={{
             textAlign: 'center',
+            paddingX: '20px',
+            maxWidth: '800px'
           }}
         >
           I <StyledLink to='/blog/why-i-quit-trading'>quit my job</StyledLink> as a trader, <StyledLink to='/projects/margins'>built an app</StyledLink> during COVID,

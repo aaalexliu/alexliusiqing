@@ -120,7 +120,7 @@ const theme = merge(tailwind, {
       },
     },
     p: {
-      fontSize: [0, 1],
+      fontSize: [1,2],
       letterSpacing: `-0.003em`,
       lineHeight: `normal`,
       "--baseline-multiplier": 0.179,
@@ -131,7 +131,7 @@ const theme = merge(tailwind, {
         textDecoration: `none`,
       },
       code: {
-        fontSize: [0, 1]
+        fontSize: [1,2]
       }
     },
     blockquote: {
@@ -140,7 +140,7 @@ const theme = merge(tailwind, {
       borderLeftColor: 'heading',
       paddingLeft: 10,
       p: {
-        fontSize: [0, 1],
+        fontSize: [1, 2],
         fontWeight: `medium`,
         color: `heading`,
       },
