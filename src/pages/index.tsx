@@ -31,7 +31,7 @@ export default function Home() {
             maxWidth: '800px'
           }}
         >
-          I <StyledLink to='/blog/why-i-quit-trading'>quit my job</StyledLink> as a trader, <StyledLink to='/projects/margins/overview'>built an app</StyledLink> during COVID,
+          I <StyledLink to='/blog/why-i-quit-trading'>quit my job</StyledLink> as a trader, <StyledLink to='/portfolio/margins/overview'>built an app</StyledLink> during COVID,
           and now I'm looking for a job as a software engineer. Here's <StyledLink to='/blog/why-code-why-me'>why I might be a fit</StyledLink> for your team.
         </Styled.h6>
         <Styled.p>
@@ -51,7 +51,7 @@ export default function Home() {
           <br/>
           - <StyledLink to='/about'>About</StyledLink>
           <br/>
-          - <StyledLink to='/projects'>Projects</StyledLink>
+          - <StyledLink to='/portfolio'>Portfolio</StyledLink>
         </Styled.p>
       </Content>
   </Parallax>

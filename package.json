@@ -6,9 +6,9 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
-    "build-full": "gatsby build && yarn add-projects",
+    "build-full": "gatsby build && yarn add-portfolio",
     "clean": "gatsby clean",
-    "add-projects": "mkdir -p public/projects && cp -R ../technical-docs/public/ public/projects/",
+    "add-portfolio": "mkdir -p public/portfolio && cp -R ../portfolio/public/ public/portfolio/",
     "clear-proxies": "export https_proxy= http_proxy= all_proxy=",
     "sshuttle": "sshuttle -r ec2-user@ec2-34-232-69-157.compute-1.amazonaws.com 0/0"
   },
