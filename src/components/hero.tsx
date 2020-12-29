@@ -28,7 +28,7 @@ const Hero: React.FC<HeroProps> = ({ offset, factor = 1, children }) => (
           left: '10%',
           top: '68%',
           opacity: '50%',
-          fontSize: '2em'
+          fontSize: '1.5em'
         }}
       >
         📈🤑📉😭
@@ -62,7 +62,7 @@ const Hero: React.FC<HeroProps> = ({ offset, factor = 1, children }) => (
       <div
         sx={{
           position: 'absolute',
-          left: '49%',
+          left: '45%',
           top: '73%',
           opacity: '50%',
           fontSize: '3em'
