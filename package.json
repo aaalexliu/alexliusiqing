@@ -10,7 +10,8 @@
     "clean": "gatsby clean",
     "add-portfolio": "mkdir -p public/portfolio && cp -R ../portfolio/public/ public/portfolio/",
     "clear-proxies": "export https_proxy= http_proxy= all_proxy=",
-    "sshuttle": "sshuttle -r ec2-user@ec2-34-232-69-157.compute-1.amazonaws.com 0/0"
+    "sshuttle": "sshuttle -r ec2-user@54.167.249.154 0/0",
+    "deploy": "netlify deploy --prod --debug"
   },
   "license": "0BSD",
   "dependencies": {
