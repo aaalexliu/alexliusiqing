@@ -7,12 +7,8 @@ module.exports = {
     siteUrl: 'https://alexliusiqing.com',
     social: [
       {
-        name: `twitter`,
-        url: `https://twitter.com/gatsbyjs`,
-      },
-      {
-        name: `github`,
-        url: `https://github.com/gatsbyjs`,
+        name: `Github`,
+        url: `https://github.com/alexliusq`,
       },
     ],
   },
@@ -30,6 +26,22 @@ module.exports = {
         jsxPragma: `jsx`, // defaults to "React"
         allExtensions: true, // defaults to false
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-YK59HW0HJ1"
+        ],
+        gtagConfig: {
+          send_page_view: true,
+          anonymize_ip: false
+        },
+        pluginConfig: {
+          // Setting this parameter is also optional
+          respectDNT: true,
+        },
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,
