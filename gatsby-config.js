@@ -1,7 +1,7 @@
 module.exports = {
   // Customize your site metadata:
   siteMetadata: {
-    title: `Byproducts of Being`,
+    title: `Alex Liu`,
     author: `Alex Liu`,
     description: `Alex Liu's Personal Site`,
     siteUrl: 'https://alexliusiqing.com',
@@ -16,7 +16,7 @@ module.exports = {
     {
       resolve: `gatsby-theme-blog`,
       options: {
-        basePath: '/blog'
+        basePath: '/'
       }
     },
     {
@@ -34,7 +34,6 @@ module.exports = {
           "G-YK59HW0HJ1"
         ],
         gtagConfig: {
-          send_page_view: true,
           anonymize_ip: false
         },
         pluginConfig: {
