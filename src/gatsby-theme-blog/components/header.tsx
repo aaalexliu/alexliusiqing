@@ -53,15 +53,15 @@ const Header: React.FC = ({ children, ...props }) => {
             alignItems: 'center',
             flexGrow: 1,
             '& > div': {
-              margin: '10px'
+              marginLeft: '15px'
             }
           }}
         >
           <div>
             <HoverLink
-              to={'/blog'}
+              to={'/portfolio'}
             >
-              Blog
+              Portfolio
             </HoverLink>
           </div>
           <div>
