@@ -13,7 +13,7 @@ interface PostLinkProps {
 const PostLink: React.FC<PostLinkProps>= ({ title, slug, date, excerpt }) => (
   <article>
     <header>
-      <Styled.h2
+      <Styled.h3
         sx={{
           mb: 1,
         }}
@@ -23,12 +23,12 @@ const PostLink: React.FC<PostLinkProps>= ({ title, slug, date, excerpt }) => (
         >
           {title || slug}
         </HoverLink>
-      </Styled.h2>
+      </Styled.h3>
       <small>{date}</small>
     </header>
-    <section>
+    {/* <section>
       <Styled.p>{excerpt}</Styled.p>
-    </section>
+    </section> */}
   </article>
 )
 
