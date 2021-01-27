@@ -5,6 +5,7 @@ import Hero from '../components/hero';
 import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons';
 import { Link } from 'gatsby';
 import Content from '../components/content-parallax';
+import Header from '../gatsby-theme-blog/components/header';
 
 const StyledLink: React.FC<{to: string}>= ({ to, children }) => {
   return (
@@ -19,19 +20,9 @@ const StyledLink: React.FC<{to: string}>= ({ to, children }) => {
 
 export default function About() {
   return (
-    // <div
-    //   sx={{
-    //     display: 'flex',
-    //     justifyContent: 'center'
-    //   }}
-    // >
-    //   <div
-    //     sx={{
-    //       marginX: '40px',
-    //       paddingTop: '40px',
-    //       maxWidth: '800px'
-    //     }}
-    //   >
+    
+    <Fragment>
+    <Header/>
     <Parallax pages={1.5}>
       <Hero offset={0} factor={0.7}>
         <Styled.h1>
@@ -51,12 +42,26 @@ export default function About() {
           I read, write, code, lift, invest, and dance.
         </Styled.p>
       </Hero>
-      <Content
+      <ParallaxLayer
         speed={1}
         offset={0.75}
         factor={1}
       >
-        <Styled.h2>A Brief History</Styled.h2>
+        <div
+          sx={{
+            display: 'flex',
+            justifyContent: 'center'
+          }}
+        >
+          <div
+            sx={{
+              // marginX: '40px',
+              // paddingTop: '40px',
+              maxWidth: '800px',
+              paddingX: [3, 4, 4, 5]
+            }}
+          >
+        <Styled.h2 sx={{textAlign: 'center'}}>A Brief History</Styled.h2>
         <Styled.p>
         My parents each brought 2 suitcases, and 2 years later, me, from China to Silicon Valley,
         where I had my childhood in an Asian Tech Immigrant's version of surburbia. English became my native tongue
@@ -84,11 +89,13 @@ export default function About() {
         </Styled.blockquote>
         If anything, quitting my job before a global pandemic is an act of self-invention. 
         </Styled.p> */}
-      </Content>
+        </div>
+     </div>
+      </ParallaxLayer>
   </Parallax>
+  </Fragment>
 
 
-    //   </div>
-    // </div>
+    
   )
 }
