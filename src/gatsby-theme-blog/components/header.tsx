@@ -18,7 +18,7 @@ const Header: React.FC = ({ children, ...props }) => {
         css={css({
           maxWidth: `container`,
           mx: `auto`,
-          px: 3,
+          px: '25px',
           pt: 4,
           backgroundColor: 'transparent',
           display: 'flex',
@@ -38,13 +38,13 @@ const Header: React.FC = ({ children, ...props }) => {
               margin: '0 5px'
             }}
           /> */}
-          <h1 css={{ margin: 0 }}>
+          <h2 css={{ margin: 0 }}>
           <HoverLink
             to={'/'}
           >
             Alex Liu
           </HoverLink>
-          </h1>
+          </h2>
         </div>
         <div
           sx={{
