@@ -22,7 +22,7 @@ const Layout: React.FC = ({ children, ...props }) => {
           css={css({
             maxWidth: `container`,
             mx: `auto`,
-            px: 3,
+            px: '25px',
             py: 4,
           })}
         >
