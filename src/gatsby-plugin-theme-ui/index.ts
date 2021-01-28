@@ -178,10 +178,8 @@ const theme = merge(tailwind, {
       color: `heading`,
     },
   },
-  layout: {
-    container: {
-      maxWidth: `5xl`
-    },
+  sizes: {
+    container: 800
   },
   buttons: {
     toggle: {
