@@ -39,9 +39,9 @@ const theme = merge(tailwind, {
     icon_green: tailwind.colors.green[5],
     modes: {
       light: {
-        text: tailwind.colors.gray[8],
+        text: tailwind.colors.gray[9],
         heading: tailwind.colors.black,
-        primary: blue[3],
+        primary: blue[5],
         background: tailwind.colors.gray[1],
         divider: tailwind.colors.gray[2],
         textMuted: tailwind.colors.gray[6],
@@ -120,7 +120,7 @@ const theme = merge(tailwind, {
       },
     },
     p: {
-      fontSize: [1,2],
+      fontSize: [1],
       letterSpacing: `-0.003em`,
       lineHeight: `normal`,
       "--baseline-multiplier": 0.179,
@@ -131,7 +131,7 @@ const theme = merge(tailwind, {
         textDecoration: `none`,
       },
       code: {
-        fontSize: [1,2]
+        fontSize: [1]
       }
     },
     blockquote: {
@@ -140,7 +140,7 @@ const theme = merge(tailwind, {
       borderLeftColor: 'heading',
       paddingLeft: 10,
       p: {
-        fontSize: [1, 2],
+        fontSize: [1],
         fontWeight: `medium`,
         color: `heading`,
       },
@@ -180,7 +180,7 @@ const theme = merge(tailwind, {
   },
   layout: {
     container: {
-      maxWidth: `5xl`,
+      maxWidth: `5xl`
     },
   },
   buttons: {
