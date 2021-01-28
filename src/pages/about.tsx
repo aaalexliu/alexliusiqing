@@ -77,8 +77,9 @@ export default function About() {
         </Styled.p>
         <Styled.p>
         For college, I traded smelling smog to smelling cows in pastoral New England, where I both enjoyed the luxury of a liberal arts
-        education and chafed at some of its anachronisms. I regret not transferring to a larger research university, but I'm forever grateful for the
-        friends, professors, and staff members I met at Amherst College. It's a special place with an especially dedicated alumni fundraising effort.
+        education and chafed at some of its anachronisms. After being a hardo by taking an extra course every semester even though Amherst
+        doesn't allow students to graduate early, I decided to relax senior year, and ended up getting more out of my classes and college life.
+        It's a special place with an especially dedicated alumni fundraising effort.
         </Styled.p>
         {/* <Styled.p>
         The benefit and brutality of an increasingly globalized world have been the most definitive forces shaping my life. I am enormously lucky to have grown up as an 
