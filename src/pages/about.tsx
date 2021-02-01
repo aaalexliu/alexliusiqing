@@ -4,8 +4,8 @@ import { jsx, Styled } from 'theme-ui';
 import Hero from '../components/hero';
 import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons';
 import { Link } from 'gatsby';
-import Content from '../components/content-parallax';
 import Header from '../gatsby-theme-blog/components/header';
+import SEO from '../components/seo';
 
 const StyledLink: React.FC<{to: string}>= ({ to, children }) => {
   return (
@@ -22,6 +22,7 @@ export default function About() {
   return (
     
     <Fragment>
+    <SEO title='about' />
     <Header/>
     <Parallax pages={1.5}>
       <Hero offset={0} factor={0.7}>
