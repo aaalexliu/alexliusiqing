@@ -14,7 +14,7 @@ I can do Full Stack and I'm also open to Front End or Back End roles.
 
 I have US citizenship, am currently in Shanghai, and I'm ready to relocate once I find some vaccine.
 
-After quitting I started re-skilling by working through online full-stack tutorials, which taught me the basics of PostgreSQL, Express, React, and Node.js. I wasn't satisfied. So I threw away my old code, opened an AWS account, and learned Terraform, Docker, GraphQL and TypeScript. I ended up using AWS Cognito, Lambda, SES, SAM, EC2, RDS, and plenty of other keywords to build [Margins](https://www.margins.me), an app that is heavily inspired by [readwise.io](http://readwise.io).
+After quitting I started re-skilling by working through online full-stack tutorials, which taught me the basics of **PostgreSQL, Express, React, and Node.js**. I wasn't satisfied. So I threw away my old code, opened an AWS account, and learned **Terraform, Docker, GraphQL and TypeScript**. I ended up using **AWS Cognito, Lambda, SES, SAM, EC2, RDS,** and plenty of other keywords to build [Margins](https://www.margins.me), an app that is heavily inspired by [readwise.io](http://readwise.io).
 
 [This write-up](/portfolio/margins/overview/) has links to the full source code, an overview of the architecture, and discussion of design decisions. I detail tradeoffs such as Apollo vs. Relay, why not Redux (yet), Gatsby vs. Next.js, programmatically generating a GraphQL server, relational vs. non-relational, special PostgreSQL features, why Serverless, and Serverless deployment tools. You will also find a Terraform dependency graph, a Security Header Grade, a schema visualization, and Lighthouse Scores.
 
