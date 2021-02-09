@@ -6,10 +6,11 @@ date: 2021-01-28
 - [Resume](/alex-liu-resume.pdf)
 - [LinkedIn](https://www.linkedin.com/in/alex-liu-siqing)
 - [Github](https://github.com/alexliusq)
+- [Portfolio](/portfolio/)
 
-I graduated from Amherst College as a double major in CS and History, went to work at Barclays as a Flow Volatility Trader, and quit after 6 months ([why I quit](/why-i-quit-trading)). Since then I've built a modern, scalable web app end-to-end ([www.margins.me](https://www.margins.me)), and I also helped a start-up [build an IoT analytics stack.](/portfolio/iot-analytics)
+I graduated from Amherst College in 2019 as a double major in CS and History, went to work at Barclays as an Equity Derivatives Trader, and left to become a software engineer ([why I quit](/why-i-quit-trading)). Since then I've built a modern, scalable web app end-to-end ([www.margins.me](https://www.margins.me)), and I also helped a start-up [build an IoT analytics stack.](/portfolio/iot-analytics)
 
-I'm looking for a team focused on an early-stage or high-growth product. I can do Full Stack and I'm also open to Front End or Back End roles.
+I can do Full Stack and I'm also open to Front End or Back End roles.
 
 I have US citizenship, am currently in Shanghai, and I'm ready to relocate once I find some vaccine.
 
