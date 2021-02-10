@@ -7,18 +7,19 @@ date: 2021-01-28
 - [LinkedIn](https://www.linkedin.com/in/alex-liu-siqing)
 - [Github](https://github.com/alexliusq)
 - [Portfolio](/portfolio/)
+- Email: alexliusiqing@gmail.com
 
 I graduated from Amherst College in 2019 as a double major in CS and History, went to work at Barclays as an Equity Derivatives Trader, and left to become a software engineer ([why I quit](/why-i-quit-trading)). Since then I've built a modern, scalable web app end-to-end ([www.margins.me](https://www.margins.me)), and I also helped a start-up [build an IoT analytics stack.](/portfolio/iot-analytics)
 
-I can do Full Stack and I'm also open to Front End or Back End roles.
+I can do Full Stack / Generalist and I'm also open to Front End or Back End roles.
 
 I have US citizenship, am currently in Shanghai, and I'm ready to relocate once I find some vaccine.
 
-After quitting I started re-skilling by working through online full-stack tutorials, which taught me the basics of **PostgreSQL, Express, React, and Node.js**. I wasn't satisfied. So I threw away my old code, opened an AWS account, and learned **Terraform, Docker, GraphQL and TypeScript**. I ended up using **AWS Cognito, Lambda, SES, SAM, EC2, RDS,** and plenty of other keywords to build [Margins](https://www.margins.me), an app that is heavily inspired by [readwise.io](http://readwise.io).
+I had experience with Python and R from college, but I wanted to prove I could build a modern application, so I learned the basics of PostgreSQL, Express, React, and Node.js. I wasn't satisfied. So I opened an AWS account, and learned Terraform, Docker, GraphQL and TypeScript. I ended up using AWS Cognito, Lambda, SES, SAM, EC2, RDS, and plenty of other keywords to build [Margins](https://www.margins.me), an app that is heavily inspired by [readwise.io](https://readwise.io/).
 
 [This write-up](/portfolio/margins/overview/) has links to the full source code, an overview of the architecture, and discussion of design decisions. I detail tradeoffs such as Apollo vs. Relay, why not Redux (yet), Gatsby vs. Next.js, programmatically generating a GraphQL server, relational vs. non-relational, special PostgreSQL features, why Serverless, and Serverless deployment tools. You will also find a Terraform dependency graph, a Security Header Grade, a schema visualization, and Lighthouse Scores.
 
-I also have experience with Python and R. My first exposure to Python was the Anaconda ecosystem during college, and I've refreshed my Python working through Elements of Programming Interviews. My R experience is mostly from almost finishing the statistics major – [this was my capstone project.](/portfolio/college/yelp-challenge)
+As for Python, my first exposure was the Anaconda ecosystem during college, where I won 3rd prize in Portfolio Investing at the UChicago Midwest Trading Competition, and I've refreshed my Python working through Elements of Programming Interviews. My R experience is mostly from almost finishing the statistics major – [this was my capstone project.](/portfolio/college/yelp-challenge)
 
 **I could be a fit for your team if you’re looking for the following:**
 
