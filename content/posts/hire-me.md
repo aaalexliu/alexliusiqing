@@ -13,7 +13,7 @@ I graduated from Amherst College in 2019 as a double major in CS and History, we
 
 I can do Full Stack / Generalist and I'm also open to Front End or Back End roles.
 
-I have US citizenship, am currently in Shanghai, and I'm ready to relocate once I find some vaccine.
+I have US citizenship, and I'm ready to relocate
 
 I had experience with Python and R from college, but I wanted to prove I could build a modern application, so I learned the basics of PostgreSQL, Express, React, and Node.js. I wasn't satisfied. So I opened an AWS account, and learned Terraform, Docker, GraphQL and TypeScript. I ended up using AWS Cognito, Lambda, SES, SAM, EC2, RDS, and plenty of other keywords to build [Margins](https://www.margins.me), an app that is heavily inspired by [readwise.io](https://readwise.io/).
 
@@ -23,7 +23,7 @@ As for Python, my first exposure was the Anaconda ecosystem during college, wher
 
 **I could be a fit for your team if you’re looking for the following:**
 
-- **Work to me is more than money or prestige.** After years of pursuing my lifelong interest in finance, I gave up my six figure Wall Street job because I couldn't dedicate my twenties to making markets. I went through this career reset to work for a mission that matters to me.
+- **Work to me is more than money or prestige.** After years of pursuing my lifelong interest in finance, I gave up my six figure Wall Street job because I couldn't dedicate my twenties to making markets. I don't need a job that cures cancer, but I want to build something that matters.
 - **Grit.** I’ve never run a marathon but I can deadlift 400 pounds.
 - **Resourceful and willing to learn**. I went to a liberal arts college where web development courses at a partner university couldn’t count towards the CS major because it was too "applied". I picked up the knowledge I needed to build from pdfs, online tutorials, Github Issues, developer blog posts, and documentation. I figured out the latest version of a framework even though their developer facing guide is [broken](https://github.com/apollographql/fullstack-tutorial/issues/161).
 - **Risk-taker and self-starter.** I was a fresh analyst on the biotech trading desk ready to prove his worth. On a Friday afternoon my desk analyst mentioned that the briefing materials for an upcoming FDA Advisory Committee meeting had been released and it'd be a good learning experience. After a weekend alone on the cavernous trading floor, I took it a step further and argued that the market was mispricing the chance that the committee would recommend withdrawing the drug. Our team made more money than my annual salary.
