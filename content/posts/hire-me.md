@@ -9,11 +9,24 @@ date: 2021-01-28
 - [Portfolio](/portfolio/)
 - Email: alexliusiqing@gmail.com
 
-I graduated from Amherst College in 2019 as a double major in CS and History, went to work at Barclays as an Equity Derivatives Trader, and left to become a software engineer ([why I quit](/why-i-quit-trading)). Since then I've built a modern, scalable web app end-to-end ([www.margins.me](https://www.margins.me)), and I also helped a start-up [build an IoT analytics stack.](/portfolio/iot-analytics)
+### Summary
+
+I graduated from Amherst College in 2019 as a double major in CS and History, went to work at Barclays as an Equity Derivatives Trader, and left to become a software engineer ([why I quit](/why-i-quit-trading)).
+
+Since then I:
+- Researched and built an IoT monitoring / analytics stack for a startup with 50k+ set top boxes ingesting 700k+ data points a day. Details [here](/portfolio/iot-analytics).
+- As a project, I built a modern full-stack web app, [margins.me](https://www.margins.me) a clone of [readwise.io](https://readwise.io). Details [here](/portfolio/margins/overview/).
 
 I can do Full Stack / Generalist and I'm also open to Front End or Back End roles.
 
-I have US citizenship, and I'm ready to relocate
+I have US citizenship and I'm ready to relocate.
+
+**Languages:** TypeScript / JavaScript, Python, SQL, R, HTML / CSS, Java (previous experience), I also speak Mandarin
+
+**Technologies:** React, Gatsby, Apollo, GraphQL, Node.js, Express, PostgreSQL, Docker, Terraform, AWS (Lambda, SAM, CloudFormation, S3, SES, EC2, RDS, Cognito, Amplify), Alibaba Cloud (Time Series Database for InfluxDB), Git, jQuery
+
+### Story + Values:
+I left my job as an Equity Derivatives Trader because I believe my 20s are my chance to build something that matters.
 
 I had experience with Python and R from college, but I wanted to prove I could build a modern application, so I learned the basics of PostgreSQL, Express, React, and Node.js. I wasn't satisfied. So I opened an AWS account, and learned Terraform, Docker, GraphQL and TypeScript. I ended up using AWS Cognito, Lambda, SES, SAM, EC2, RDS, and plenty of other keywords to build [Margins](https://www.margins.me), an app that is heavily inspired by [readwise.io](https://readwise.io/).
 
